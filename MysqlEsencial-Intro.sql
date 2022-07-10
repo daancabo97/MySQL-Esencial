@@ -1,0 +1,11 @@
+show databases;
+create database tienda;
+use tienda;
+create table producto (nombre varchar(120), descripcion text);
+show tables;
+insert into producto (nombre , descripcion) values("manzana" , "fruta");
+insert into producto (nombre , descripcion) values("Pera" , "fruta");
+select * from producto;
+Delete from producto where nombre = "manzana";
+drop table producto;
+drop database tienda;

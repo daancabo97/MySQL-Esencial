@@ -1,0 +1,1 @@
+show grants for admin2@localhost;

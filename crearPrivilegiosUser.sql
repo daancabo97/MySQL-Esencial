@@ -1,0 +1,1 @@
+grant select, insert , update, delete on tienda.* to admin2@localhost;

@@ -1,0 +1,1 @@
+create user admin2@localhost identified by '123abc';
